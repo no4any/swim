@@ -1,0 +1,17 @@
+{
+  "name": "lib-swim",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "test": "jest",
+    "test:watch": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.7",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
